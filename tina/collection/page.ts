@@ -1,3 +1,4 @@
+import { partnersBlockSchema } from './../../components/blocks/partners';
 import type { Collection } from "tinacms";
 import { heroBlockSchema } from "../../components/blocks/hero";
 import { contentBlockSchema } from "../../components/blocks/content";
@@ -42,6 +43,7 @@ const Page: Collection = {
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-ignore
         featureBlockSchema,
+        partnersBlockSchema,
         contentBlockSchema,
         testimonialBlockSchema,
       ],
